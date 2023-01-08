@@ -10,3 +10,12 @@ const year = 2022;
  let age = 1995;
 
  console.log( year - age);
+
+
+
+
+ /// sidoo kale Variables ka wax keedin karaan Strings ama xuruuf
+ //examples
+ let name = "duceysane";
+  console.log("your name is: ");
+  console.log(name);
