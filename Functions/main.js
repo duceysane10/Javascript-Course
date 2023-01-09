@@ -47,6 +47,6 @@ waxaa loo is ticmaalaa si howl aan mar qabanay aan dib dambe uqabanin oo isga li
     for(let i=0; i < exp;i++){
         result = bas * result;
     }
-    return result;
+    return 'Power of '+bas+'^'+exp+ " = "+ result;
  }
  console.log(power(2,10));
