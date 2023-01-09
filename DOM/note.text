@@ -1,0 +1,28 @@
+The HTML DOM (Document Object Model)
+----------------------------------------------------------
+What is the DOM?
+Ans: The DOM defines a standard for accessing documents:
+-----------------------------------------------------------
+
+What is the HTML DOM?
+The HTML DOM is a standard object model and programming interface for HTML. It defines:
+
+The HTML elements as objects
+The properties of all HTML elements
+The methods to access all HTML elements
+The events for all HTML elements
+-------------------------------------------
+In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+------------------------------------------------------------------------------------------------
+
+Sadax qaab ayaa DOM loo soo aqriyaa Ementiga HTML ka:
+1. by id = use #id name 
+2. by class =  use .class name
+3. by tag = use tag name like: h1, h3, p,span
+
+------------------------------------------------------------------------------------------
+Some events that belong to KeyboardEvent Objects are as follows:
+
+1. onkeydown: This event is triggered when the user is pressing a key.
+2. onkeypress: This event is triggered when the user presses a key.
+3. onkeyup: This event is triggered when the user releases a key.

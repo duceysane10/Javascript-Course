@@ -1,0 +1,12 @@
+.err{
+    background: #d64c4c;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px
+}
+.succes{
+    background: #4cd69c;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px
+}
