@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/aa3ef3a2dc.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Login/Register</h1>
+        <form action="" id="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" name="" id="username" class="username">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small id="usernameEr" class="form-control error"></small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="text" name="" id="email" class="email">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small id="emailEr"  class="form-control"></small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" name="" id="Password" class="Password">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <i class="fa fa-eye" id="showPassword"></i>
+                <small id="passwordEr" class="form-control"></small>
+            </div>
+            <div class="form-control">
+                <label for="username">Confirm Password</label>
+                <input type="password" name="" id="Confirm" class="Confirm">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <i class="fa fa-eye" id="showConfirm"></i>
+                <small id="confirmEr" class="form-control"></small>
+            </div>
+            <button type="submit" class="submit" id="submit">Login or register</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
