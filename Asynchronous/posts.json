@@ -1,0 +1,20 @@
+[
+    {
+        "user": 1,
+        "name" : "duceysane",
+        "title" : "JS Course",
+        "body" : "JS waa luuqad kamida luuqadaha programinga loogu jeclyahay uguna waxtaka badan"
+    },
+    {
+        "user" : 2,
+        "name" : "Cli",
+        "title" : "php Course",
+        "body" : "php waa luuqad kamida luuqadaha programinga loogu jeclyahay uguna waxtaka badan"
+    },
+    {
+        "user" : 3,
+        "name" : "ifrax",
+        "title" : "Node Js Course",
+        "body" : "Node JS waa luuqad kamida luuqadaha programinga loogu jeclyahay uguna waxtaka badan"
+    }
+]

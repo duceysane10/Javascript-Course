@@ -1,0 +1,31 @@
+What is Asynchronous?
+With asynchronous programming, multiple related operations can run concurrently without waiting for other tasks to complete.
+asynchronous : Waa in dhowr function isku mar shaqdooda ay fuliyaan iyadoona function kale loo xayinaaneenin intuu howshiisa Qabsanaayo
+---------------------------------------------------------------------------------------------------------------------------------------
+
+What is Synchronous?
+As a single-thread model, it follows a strict set of sequences, which means that operations are performed one at a time, in perfect order.While one operation is being performed, other operations’ instructions are blocked. The completion of the first task triggers the next, and so on.
+Synchronous : Waa Dhowr function oo shaqadoodu isku xiran tahay mid markii la fuliyo kan kale loo gudbaayo si Order ah
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Website laga heli Karo API oo free ah :
+https://jsonplaceholder.typicode.com/
+---------------------------------------------------------------------------------------------------------------------
+N>B JSON file Markaa abuureesid wuxuu ka koobnaan doonaa kye : value, marka waxaa waajiba mar walbo in key ga uu ku jiro single or double codes ""
+example : [{"user":1}]
+---------------------------------------------------------------------------------------------------------------
+Callback hell waa maxay?
+Callback hell: is an  callback inside another callback,inside another callback;
+waa callback laga dhax wacaayo callback kale asigana callback kale lagasii dhax wacaayo ,si functionsku ay unoqdaan ku ah Asynchronous 
+------------------------------------------------------------------------------------------------------------------------------------------
+N.B better way oo Functions ka looga dhigo Asynchronous kuwo kala horeeya waa in la isticmaalo Chaining Promises instead of Callback Hell 
+promises ka wuxuu qaataa laba parameter oo iygana functions ah kuwaasoo kala ah : resolve: oo utaagan success iyo reject: oo utaagan err
+----------------------------------------------------------------------------------------------------------------------------------------
+What is The Fetch API>
+The Fetch API : waa beter way oo loo acces gareeyo APi instead XML HTTP kana sahlan kana code yar isticmaal ahaan 
+--------------------------------------------------------------------------------------------------------------------
+What is Async & Await?
+Async & Await : waxa uu ushaqeeyaa sida kuwii hore ee api ayada lagu acces gareenanayay sida fetch Api and XML Http 
+balse kawanaagsan kuligood kana sahlan wuxuu isticmaalaa = async iyo awiat oo loola jeedo requestiga variblka sida lama is ticmaali karo ilaa uu awiatka ka soo gudbo.
+--------------------------------------------------------------------------------------------------------------------------------
+
