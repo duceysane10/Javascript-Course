@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+body {
+  font-family: "Amiri", serif;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+    max-width: 1510px;
+    margin: 0 auto;
+}
+
+#aayah {
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#aayah a {
+    text-decoration: none;
+    color: #000;
+}
+
+#ayah-sign {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 60px;
+  margin: 0 20px -20px 15px;
+}
+
+#ayah-number {
+  position: relative;
+  left: 50px;
+  font-size: 30px;
+  top: 5px;
+}
+
+#bisin {
+  text-align: center;
+  margin: 100px;
+  
+}
+
+#bisin a {
+    text-decoration: none;
+    color: #000;
+}
+
+#aayah-tafsiir {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: #000;
+}
