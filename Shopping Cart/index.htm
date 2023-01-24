@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1>Shopping Cart</h1>
+                </div>
+                <div class="cart_count">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span id="total_counter">0</span>
+                </div>
+            </nav>
+            <div class="cart">
+                <div class="cart__products">
+                    <div class="cart__items ">
+                        <div class="payment-tayp">
+                            <h4 class="choose-payment">choose-payment </h4>
+                            <input type="radio" name="payment-method" id="paypal" value="paypal" class="radio" checked>
+                            <label for="paypal">paypal</label>
+                            <input type="radio" name="payment-method" id="EVC" value="EVC" class="radio">
+                            <label for="EVC">EVCPlus</label>
+                        </div>
+                        <input type="text" id="phone" class="form-control" placeholder="Enter Your phone Number">
+                         <!-- CheckOut -->
+                         <div class="check_out">
+                            <h4>Total Amount: $</h4>
+                            <h4 class="total_cost"></h4>
+                            <button class="btn btn_checkout">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="products">
+            <div class="product_elm">
+                <input type="text" name="" id="product_id" value="1" hidden>
+                <img src="./img/1__.png" alt="" id="p_img">
+                <h4 class="product__name">Nike</h4>
+                <h5 class="product__price">$50</h5>
+               <div class="btn_btn-addCart">Add to Cart</div>
+            </div>
+            
+            <div class="product_elm">
+                <input type="text" name="" id="product_id" value="2" hidden>
+                <img src="./img/2__.png" alt="" id="p_img">
+                <h4 class="product__name">jambal</h4>
+                <h5 class="product__price">$30</h5>
+               <div class="btn_btn-addCart">Add to Cart</div>
+            </div>
+            
+            
+            <div class="product_elm">
+                <input type="text" name="" id="product_id" value="3" hidden>
+                <img src="./img/3___.png" class="p_img" alt="" id="p_img">
+                <h4 class="product__name">buud</h4>
+                <h5 class="product__price">$20</h5>
+               <div class="btn_btn-addCart">Add to Cart</div>
+            </div>
+        </div>
+    </div>
+    <script src="./scrips/main.js"></script>
+</body>
+</html>
