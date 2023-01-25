@@ -66,7 +66,9 @@ const addItemToTheCart = (product) =>{
 }
 
 // if addCart button clicked
-let cartItems=[]
+let cartItems=JSON.parse(localStorage.getItem("cart_items") || "[]");
+console.log()
+
 addCart.forEach(btn =>{
     btn.addEventListener('click',() =>{
         // geting the Parent of the button
